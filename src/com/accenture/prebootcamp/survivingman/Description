@@ -26,3 +26,19 @@
     By every count and it will show up by every guess, we add a image and we print out story (text) with the current situation of the surviving man.
     Player wins the game if count is lower the 7 and the guess equals to given word. We can congratulate the player.
     After first round, if player returns 'yes' answer, we can ofer player to play "Surviving Man" again.
+
+    Examples:
+    The player needs to guess word orange.
+        Example input:
+                A
+        Example output:
+                "You guessed right! You just found a water source and now you're hydrated."
+                The program also outputs an image of the surviving man
+
+        Example input:
+                B
+        Example output:
+        "Wrong guess! You ate some poisonous berries by accident and now you're feeling sick."
+         The program also outputs an image of the surviving man, who looks sick.
+
+
