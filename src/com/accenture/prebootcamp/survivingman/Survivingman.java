@@ -79,7 +79,15 @@ public class Survivingman {
             public static void rightAnswer () {
                 if (countRight == 1) {
                     System.out.println("You guessed right! You just found a water source and now you're hydrated.");
-                    System.out.println();
+                    System.out.println("        .                 ");
+                    System.out.println("      |^ .                ");
+                    System.out.println("    \\O___.____ /         ");
+                    System.out.println("      \\   .  /           ");
+                    System.out.println("        \\ ,/             ");
+                    System.out.println("         []               ");
+                    System.out.println("         []               ");
+                    System.out.println("         []               ");
+                    System.out.println("      ========            ");
                 }
                 if (countRight == 2) {
                     System.out.println("You guessed right! While hiding from the tribe, you meet a shaman who shared his warm campfire.\n" +
