@@ -49,119 +49,147 @@ public class Survivingman {
     }
 
 
-            public static void action (String guess){
-                String newdashes = "";
-                for (int i = 0; i < word.length(); i++) {
-                    if (word.charAt(i) == guess.charAt(0)) {
-                        newdashes += guess.charAt(0);
-                    } else if (dashes.charAt(i) != '_') {
-                        newdashes += word.charAt(i);
-                    } else {
-                        newdashes += "_";
-                    }
-                }
+    public static void action(String guess) {
+        String newdashes = "";
+        for (int i = 0; i < word.length(); i++) {
+            if (word.charAt(i) == guess.charAt(0)) {
+                newdashes += guess.charAt(0);
+            } else if (dashes.charAt(i) != '_') {
+                newdashes += word.charAt(i);
+            } else {
+                newdashes += "_";
+            }
+        }
 
-                if (dashes.equals(newdashes)) {
-                    countWrong++;
-                    wrongAnswer();
-                } else {
-                    dashes = newdashes;
-                    countRight++;
-                    rightAnswer();
-                }
-                if (dashes.equals(word)) {
-                    System.out.println(word+ "!!! You guessed the word! Yay! It was " + word + "! And right when the tribe had found you while you were taking a nap.\n" +
-                            "You tell them the word and they take you to the nearest village where you meet people\n" +
-                            "who are just about to fly to the same place you were going! You're the happiest person on earth...\n" +
-                            "And then you wake up. It was all a dream.");
-                }
-            }
-            public static void rightAnswer () {
-                if (countRight == 1) {
-                    System.out.println("You guessed right! You just found a water source and now you're hydrated.");
-                    System.out.println();
-                }
-                if (countRight == 2) {
-                    System.out.println("You guessed right! While hiding from the tribe, you meet a shaman who shared his warm campfire.\n" +
-                            " He gave you a blessing for the way forward.");
-                    System.out.println();
-                }
-                if (countRight == 3) {
-                    System.out.println("You guessed right! It's getting dark outside, so it is time to build a wigwam to sleep in.\n" +
-                            " With few branches, large leaves and a pilots jacket you made a cozy shelter.\n" +
-                            "In your mind you thought you might be a good interior designer.");
-                    System.out.println();
-                }
-                if (countRight == 4) {
-                    System.out.println("You guessed right! You were hungry, so you catch a frog. You made some french crispy frog leg delicacies.");
-                    System.out.println();
-                }
-                if (countRight == 5) {
-                    System.out.println("You guessed right! You had the idea to disguise yourself so that the tribe wouldn't notice you so easily.\n" +
-                            "With some mud you made yourself invisible.");
-                    System.out.println();
-                }
-                if (countRight == 6) {
-                    System.out.println("You guessed right! You found a knife that someone must have lost. " +
-                            "Now you can make spears, catch fish and peel apples. you don't like eating apples with the peel on.");
-                    System.out.println();
-                }
-                if (countRight == 7) {
-                    System.out.println("You guessed right! You found a medical plant to heal your injuries. Another small victory.\"");
-                    System.out.println();
-                }
-                if (countRight == 8) {
-                    System.out.println("You guessed right! While sneaking in the jungle, you spot a young tigress and you feed her some of your " +
-                            "food so she doesn't attack you. At first, she scratches you a bit, " +
-                            "but after seeing you have food, she gets used to you quickly and now you have a pet!");
-                    System.out.println();
-                }
-                if (countRight == 9) {
-                    System.out.println("You guessed right! How does it feel to be a winner?");
-                    System.out.println();
-                }
-            }
+        if (dashes.equals(newdashes)) {
+            countWrong++;
+            wrongAnswer();
+        } else {
+            dashes = newdashes;
+            countRight++;
+            rightAnswer();
+        }
+        if (dashes.equals(word)) {
+            System.out.println(word + "!!! You guessed the word! Yay! It was " + word + "! And right when the tribe had found you while you were taking a nap.\n" +
+                    "You tell them the word and they take you to the nearest village where you meet people\n" +
+                    "who are just about to fly to the same place you were going! You're the happiest person on earth...\n" +
+                    "And then you wake up. It was all a dream.");
+        }
+    }
 
-            public static void wrongAnswer () {
-                if (countWrong == 1) {
-                    System.out.println("Wrong guess! While hiding from the tribe, you got very cold so you decided to light a campfire.\n" +
-                            " You saw how to do it on television, so you rubbed the stones together for three hours straight for no reason.");
-                    System.out.println();
-                }
-                if (countWrong == 2) {
-                    System.out.println("Wrong guess! You ate some poisonous berries by accident and now you're feeling sick.");
-                    System.out.println();
-                }
-                if (countWrong == 3) {
-                    System.out.println("Wrong guess! Where to sleep, you thought. My father always told me I'm not a good builder.\n" +
-                            "So you find a cave which made you run for your life, because the bear wasn't waiting for any guests.");
-                    System.out.println();
-                }
-                if (countWrong == 4) {
-                    System.out.println("Wrong guess! You were hungry, so you catch a colorful frog.\n" +
-                            "You ate it, it tasted terrible and you felt quite strange.It made you hallucinate all day long.");
-                    System.out.println();
-                }
-                if (countWrong == 5) {
-                    System.out.println("Wrong guess! You had the idea to disguise yourself so that the tribe wouldn't notice you so easily.\n" +
-                            "With some mud you made yourself look like you came out from some unsuccessful chocolate spa treatment.\n" +
-                            "Even jungle creatures look at you with condemnation.");
-                    System.out.println();
-                }
-                if (countWrong == 6) {
-                    System.out.println("Wrong guess! While sneaking in the jungle, suddenly you get attacked by a panther.\n" +
-                            "It only injures your arm and then leaves you since you smell bad.");
-                    System.out.println();
-                }
-                if (countWrong == 7) {
-                    System.out.println("Wrong guess! You are awoken from your nap as the tribe has their spears pointed towards you.\n" +
-                            "You have no escape and you start to think about the impending doom.\n" +
-                            "They bring you to their village, where they have prepared a large pot for you to boil in and\n" +
-                            "they will make a delicious borsch from you. While your screaming for your life,\n" +
-                            "you suddenly wake up in your bed, at home.\n " +
-                            "It was all just a nightmare and you decide to never read facebook articles again. ");
-                }
-            }
+    public static void rightAnswer() {
+        if (countRight == 1) {
+            System.out.println("You guessed right! You just found a water source and now you're hydrated.");
+            System.out.println();
+        }
+        if (countRight == 2) {
+            System.out.println("You guessed right! While hiding from the tribe, you meet a shaman who shared his warm campfire.\n" +
+                    " He gave you a blessing for the way forward.");
+            System.out.println();
+        }
+        if (countRight == 3) {
+            System.out.println("You guessed right! It's getting dark outside, so it is time to build a wigwam to sleep in.\n" +
+                    " With few branches, large leaves and a pilots jacket you made a cozy shelter.\n" +
+                    "In your mind you thought you might be a good interior designer.");
+            System.out.println();
+        }
+        if (countRight == 4) {
+            System.out.println("You guessed right! You were hungry, so you catch a frog. You made some french crispy frog leg delicacies.");
+            System.out.println("           _ _         ");
+            System.out.println("         (.)_(.)       ");
+            System.out.println("      _ (   _   ) _       ");
+            System.out.println("     / \\/`-----'\\/ \\   ");
+            System.out.println("   __\\ ( (     ) ) /__     ");
+            System.out.println("  )   / \\ \\._./ / \\   (   ");
+            System.out.println("   )_/  /|\\    /|\\ \\_(    ");
+            System.out.println();
+
+        }
+        if (countRight == 5) {
+            System.out.println("You guessed right! You had the idea to disguise yourself so that the tribe wouldn't notice you so easily.\n" +
+                    "With some mud you made yourself invisible.");
+            System.out.println();
+        }
+        if (countRight == 6) {
+            System.out.println("You guessed right! You found a knife that someone must have lost. " +
+                    "Now you can make spears, catch fish and peel apples. you don't like eating apples with the peel on.");
+            System.out.println();
+        }
+        if (countRight == 7) {
+            System.out.println("You guessed right! You found a medical plant to heal your injuries. Another small victory.\"");
+            System.out.println();
+        }
+        if (countRight == 8) {
+            System.out.println("You guessed right! While sneaking in the jungle, you spot a young tigress and you feed her some of your " +
+                    "food so she doesn't attack you. At first, she scratches you a bit, " +
+                    "but after seeing you have food, she gets used to you quickly and now you have a pet!");
+            System.out.println();
+        }
+        if (countRight == 9) {
+            System.out.println("You guessed right! How does it feel to be a winner?");
+            System.out.println();
+        }
+    }
+
+    public static void wrongAnswer() {
+        if (countWrong == 1) {
+            System.out.println("Wrong guess! While hiding from the tribe, you got very cold so you decided to light a campfire.\n" +
+                    " You saw how to do it on television, so you rubbed the stones together for three hours straight for no reason.");
+            System.out.println();
+        }
+        if (countWrong == 2) {
+            System.out.println("Wrong guess! You ate some poisonous berries by accident and now you're feeling sick.");
+            System.out.println();
+        }
+        if (countWrong == 3) {
+            System.out.println("Wrong guess! Where to sleep, you thought. My father always told me I'm not a good builder.\n" +
+                    "So you find a cave which made you run for your life, because the bear wasn't waiting for any guests.");
+            System.out.println();
+        }
+        if (countWrong == 4) {
+            System.out.println("Wrong guess! You were hungry, so you catch a colorful frog.\n" +
+                    "You ate it, it tasted terrible and you felt quite strange.It made you hallucinate all day long.");
+            System.out.println("       ____  __.---\"\"---.__  ____");
+            System.out.println("      /####\\/              \\/####\\");
+            System.out.println("     (  / \\ )             ( / \\  )");
+            System.out.println("     \\____/                \\____/");
+            System.out.println("    __/                          \\__");
+            System.out.println(" .-\"    .                      .    \"-.");
+            System.out.println(" |  |   \\.._                _../   |  |");
+            System.out.println("  \\  \\    \\.\"-.__________.-\"./    /  /");
+            System.out.println("    \\  \\    \"--.________.--\"    /  /");
+            System.out.println("  ___\\  \\_                    _/  /___");
+            System.out.println("./    )))))                  (((((    \\.");
+            System.out.println("\\                                      /");
+            System.out.println(" \\           \\_          _/           /");
+            System.out.println("   \\    \\____/\"\"-.____.-\"\"\\____/    /");
+            System.out.println("     \\    \\                  /    /");
+            System.out.println("      \\.  .|                |.  ./");
+            System.out.println("    .\" / |  \\              /  | \\  \".");
+            System.out.println(" .\"  /   |   \\            /   |   \\   \".");
+            System.out.println("/.-./.--.|.--.\\          /.--.|.--.\\.-.| ");
+            System.out.println();
+        }
+        if (countWrong == 5) {
+            System.out.println("Wrong guess! You had the idea to disguise yourself so that the tribe wouldn't notice you so easily.\n" +
+                    "With some mud you made yourself look like you came out from some unsuccessful chocolate spa treatment.\n" +
+                    "Even jungle creatures look at you with condemnation.");
+            System.out.println();
+        }
+        if (countWrong == 6) {
+            System.out.println("Wrong guess! While sneaking in the jungle, suddenly you get attacked by a panther.\n" +
+                    "It only injures your arm and then leaves you since you smell bad.");
+            System.out.println();
+        }
+        if (countWrong == 7) {
+            System.out.println("Wrong guess! You are awoken from your nap as the tribe has their spears pointed towards you.\n" +
+                    "You have no escape and you start to think about the impending doom.\n" +
+                    "They bring you to their village, where they have prepared a large pot for you to boil in and\n" +
+                    "they will make a delicious borsch from you. While your screaming for your life,\n" +
+                    "you suddenly wake up in your bed, at home.\n " +
+                    "It was all just a nightmare and you decide to never read facebook articles again. ");
+        }
+    }
 }
 
 
