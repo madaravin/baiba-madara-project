@@ -53,7 +53,6 @@ public class Survivingman {
             String guess = sc.next();
             action(guess);
         }
-        sc.close();
     }
 
 
@@ -115,9 +114,36 @@ public class Survivingman {
                     System.out.println();
                 }
                 if (countRight == 3) {
-                    System.out.println("You guessed right! It's getting dark outside, so it is time to build a wigwam to sleep in.\n" +
+                    System.out.println("You guessed right! It's getting dark outside, so it is time to build a place to sleep in.\n" +
                             " With few branches, large leaves and a pilots jacket you made a cozy shelter.\n" +
                             "In your mind you thought you might be a good interior designer.");
+                    System.out.println("                                                                       ");
+                    System.out.println("                               vv                                        ");
+                    System.out.println("                           vvv^^^^vvvvv                                  ");
+                    System.out.println("                       vvvvvvvvv^^vvvvvv^^vvvvv                          ");
+                    System.out.println("              vvvvvvvvvvv^^^^^^^^^^^^^vvvvv^^^vvvvv                      ");
+                    System.out.println("          vvvvvvv^^^^^^^^^vvv^^^^^^^vvvvvvvvvvv^^^vvv                    ");
+                    System.out.println("        vvvv^^^^^^vvvvv^^^^^^^vv^^^^^^^vvvv^^^vvvvvv                     ");
+                    System.out.println("       vv^^^^^^^^vvv^^^^^vv^^^^vvvvvvvvvvvv^^^^^^vv^                     ");
+                    System.out.println("       vvv^^^^^vvvv^^^^^^vvvvv^^vvvvvvvvv^^^^^^vvvvv^                    ");
+                    System.out.println("         vvvvvvvvvv^^^v^^^vvvvvv^^vvvvvvvvvv^^^vvvvvvvvv                 ");
+                    System.out.println("          ^vv^^^vvvvvvv^^vvvvv^^^^^^^^vvvvvvvvv^^^^^^vvvvvv              ");
+                    System.out.println("            ^vvvvvvvvv^^^^vvvvvv^^^^^^vvvvvvvv^^^vvvvvvvvvv^v            ");
+                    System.out.println("             ^^^^^^vvvv^^vvvvv^vvvv^^^v^^^^^^vvvvvv^^^^vvvvv             ");
+                    System.out.println("      vvvv^^vvv^^^vvvvvvvvvv^vvvvv^vvvvvv^^^vvvvvvv^^vvvvv^              ");
+                    System.out.println("    vvv^vvvvv^^vvvvvvv^^vvvvvvv^^vvvvv^v##vvv^vvvv^^vvvvv^v              ");
+                    System.out.println("     ^vvvvvv^^vvvvvvvv^vv^vvv^^^^^^_____##^^^vvvvvvvv^^^^                ");
+                    System.out.println("        ^^vvvvvvv^^vvvvvvvvvv^^^^/\\@@@@@@\\#vvvv^^^                     ");
+                    System.out.println("             ^^vvvvvv^^^^^^vvvvv/__\\@@@@@@\\^vvvv^v                     ");
+                    System.out.println("                 ;^^vvvvvvvvvvv/____\\@@@@@@\\vvvvvvv                    ");
+                    System.out.println("                 ;      \\_  ^\\|[  -:] ||--| | _/^^                     ");
+                    System.out.println("                 ;        \\   |[   :] ||_/| |/                          ");
+                    System.out.println("                 ;         \\\\ ||___:]______/                           ");
+                    System.out.println("                 ;          \\   ;=; /                                   ");
+                    System.out.println("                 ;           |  ;=;|                                     ");
+                    System.out.println("                 ;          ()  ;=;|                                     ");
+                    System.out.println("                (()          || ;=;|                                     ");
+                    System.out.println("                            / / \\;=;\\                                  ");
                     System.out.println();
                 }
                 if (countRight == 4) {
@@ -156,6 +182,36 @@ public class Survivingman {
                 }
                 if (countRight == 7) {
                     System.out.println("You guessed right! You found a medical plant to heal your injuries. Another small victory.\"");
+                    System.out.println("                                                                                 ");
+                    System.out.println("                                     ....                                        ");
+                    System.out.println("                                  ,;;'''';;,                    ,;;;;,           ");
+                    System.out.println("                       ,        ;;'      `;;,               .,;;;'   ;           ");
+                    System.out.println("                    ,;;;       ;;          `;;,';;;,.     ,%;;'     '            ");
+                    System.out.println("                  ,;;,;;       ;;         ,;`;;;, `;::.  %%;'                    ");
+                    System.out.println("                 ;;;,;;;       `'       ,;;; ;;,;;, `::,%%;'                     ");
+                    System.out.println("                ;;;,;;;,          .,%%%%%'% ;;;;,;;   %;;;                       ");
+                    System.out.println("    ,%,.      `;;;,;;;,    .,%%%%%%%%%'%; ;;;;;,;;  %;;;                         ");
+                    System.out.println("   ;,`%%%%%%%%%%`;;,;;'%%%%%%%%%%%%%'%%'  `;;;;;,;, %;;;                         ");
+                    System.out.println("   ;;;,`%%%%%%%%%%%,; ..`%%%%%%%%;'%%%'    `;;;;,;; %%;;                         ");
+                    System.out.println("   `;;;;;,`%%%%%,;;/, .. `\"\"\"'',%%%%%      `;;;;;; %%;;,                      ");
+                    System.out.println("      `;;;;;;;,;;/////,.    ,;%%%%%%%        `;;;;,`%%;;                         ");
+                    System.out.println("                ;;;/%%%%,%///;;;';%%%%%%,          `;;;%%;;,                     ");
+                    System.out.println("               ;;;/%%%,%%%%%/;;;';;'%%%%%,             `%%;;                     ");
+                    System.out.println("              .;;/%%,%%%%%//;;'  ;;;'%%%%%,             %%;;,                    ");
+                    System.out.println("              ;;//%,%%%%//;;;'   `;;;;'%%%%             `%;;;                    ");
+                    System.out.println("              ;;//%,%//;;;;'      `;;;;'%%%              %;;;,                   ");
+                    System.out.println("               ;;//,/;;;'          `;;;'%%'              `%;;;                   ");
+                    System.out.println("                 ;;;;'               `;'%'                `;;;;                  ");
+                    System.out.println("                                       '      .,,,.        `;;;;                 ");
+                    System.out.println("                                          ,;;;;;;;;;;,     `;;;;                 ");
+                    System.out.println("                                         ;;;'    ;;;,;;,    `;;;;                ");
+                    System.out.println("                                         ;;;      ;;;;,;;.   `;;;;               ");
+                    System.out.println("                                           ;;      ;;;;;,;;   ;;;;               ");
+                    System.out.println("                                             '      `;;;;,;;  ;;;;               ");
+                    System.out.println("                                                      `;;,;, ;;;;                ");
+                    System.out.println("                                                         ;;, ;;;;                ");
+                    System.out.println("                                                           ';;;;;                ");
+                    System.out.println("                                                            ;;;;;                ");
                     System.out.println();
                 }
                 if (countRight == 8) {
