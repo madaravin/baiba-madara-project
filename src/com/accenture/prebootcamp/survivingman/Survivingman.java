@@ -14,11 +14,17 @@ public class Survivingman {
 
     public static void main(String[] args) {
         int timesRepeatGame = 5;
-        do {
+        do {   startGame();
             System.out.println();
-            System.out.println();
-            System.out.println("Let's play again!");
-            startGame();
+            System.out.println("\n" +
+                    "    __          __  _                 __                                      _         __\n" +
+                    "   / /   ___   / /_( )_____   ____   / /____ _ __  __   ____ _ ____ _ ____ _ (_)____   / /\n" +
+                    "  / /   / _ \\ / __/|// ___/  / __ \\ / // __ `// / / /  / __ `// __ `// __ `// // __ \\ / / \n" +
+                    " / /___/  __// /_   (__  )  / /_/ // // /_/ // /_/ /  / /_/ // /_/ // /_/ // // / / //_/  \n" +
+                    "/_____/\\___/ \\__/  /____/  / .___//_/ \\__,_/ \\__, /   \\__,_/ \\__, / \\__,_//_//_/ /_/(_)   \n" +
+                    "                          /_/               /____/          /____/                        \n");
+            System.out.println("________________________________________________________________________________________________________________________________________");
+
         } while (--timesRepeatGame > 0);
     }
 
@@ -162,25 +168,47 @@ public class Survivingman {
                 }
                 if (countRight == 5) {
                     System.out.println("You guessed right! You had the idea to disguise yourself so that the tribe wouldn't notice you so easily.\n" +
-                            "With some mud you made yourself invisible.");
+                            "With some mud you made yourself look like a part of a tribe.");
+                    System.out.println("             ,");
+                    System.out.println("            /:\\");
+                    System.out.println("            >:<");
+                    System.out.println("            >:<");
+                    System.out.println("            >:<");
+                    System.out.println("       ,,,,,\\:/");
+                    System.out.println("      #########");
+                    System.out.println("     //////\\\\\\\\\\");
+                    System.out.println("    // /_\\ /_\\ \\\\");
+                    System.out.println("    \\(  0 _ 0  )/");
+                    System.out.println("    /\\\\=  _\\ =//\\");
+                    System.out.println("    \\\\/\\ --- /\\//");
+                    System.out.println("    //\\ '---' /\\\\");
+                    System.out.println("    \\//       \\\\/");
+                    System.out.println("    /\\\\       //\\");
+                    System.out.println("    \\\\/       \\//");
+                    System.out.println("     #         #");
+                    System.out.println("     \"         \"");
                     System.out.println();
                 }
                 if (countRight == 6) {
                     System.out.println("You guessed right! You found a knife that someone must have lost. " +
                             "Now you can make spears, catch fish and peel apples. you don't like eating apples with the peel on.");
-                    System.out.println("___88888 ");
-                    System.out.println("___8___8 ");
-                    System.out.println("____888 ");
-                    System.out.println("____838____ ");
-                    System.out.println("888_838_888 ");
-                    System.out.println("__8888888 ");
-                    System.out.println("___81_18 ");
-                    System.out.println("___81_18 ");
-                    System.out.println("___81_18 ");
-                    System.out.println("___81_18 ");
-                    System.out.println("___81_18 ");
-                    System.out.println("____818 ");
-                    System.out.println("_____8");
+                    System.out.println("       .---.");
+                    System.out.println("       |---|");
+                    System.out.println("       |---|");
+                    System.out.println("       |---|");
+                    System.out.println("   .---^ - ^---.");
+                    System.out.println("   :___________:");
+                    System.out.println("      |  |//|");
+                    System.out.println("      |  |//|");
+                    System.out.println("      |  |//|");
+                    System.out.println("      |  |//|");
+                    System.out.println("      |  |//|");
+                    System.out.println("      |  |//|");
+                    System.out.println("      |  |.-|");
+                    System.out.println("      |.-'**|");
+                    System.out.println("       \\***/");
+                    System.out.println("        \\*/");
+                    System.out.println("         V");
                     System.out.println();
                 }
                 if (countRight == 7) {
@@ -243,30 +271,6 @@ public class Survivingman {
                 if (countWrong == 1) {
                     System.out.println("Wrong guess! While hiding from the tribe, you got very cold so you decided to light a campfire.\n" +
                             " You saw how to do it on television, so you rubbed the stones together for three hours straight for no reason.");
-
-                    System.out.println("                                                                         ");
-                    System.out.println("                        o                   o                            ");
-                    System.out.println("                        \\               __/                             ");
-                    System.out.println("                         \\___          /                                ");
-                    System.out.println("                             \\__    __/                                 ");
-                    System.out.println("                                \\  /                                    ");
-                    System.out.println("                     ____________\\/____________                         ");
-                    System.out.println("                    /   ______________________  \\                       ");
-                    System.out.println("                   |  /                      \\   |                      ");
-                    System.out.println("                   | |                         | |                       ");
-                    System.out.println("                   | |                         | |                       ");
-                    System.out.println("                   | |               /         | |                       ");
-                    System.out.println("                   | |      ___                | |                       ");
-                    System.out.println("                   | |      O        0         | |                       ");
-                    System.out.println("                   | |                         | |                       ");
-                    System.out.println("                   | |     \\_-__--__/          | |                      ");
-                    System.out.println("                   | |                         | |                       ");
-                    System.out.println("                   | \\________________________/  |                      ");
-                    System.out.println("                   |                 _   _       |                       ");
-                    System.out.println("                   |  prs           (|) (/)      |                       ");
-                    System.out.println("                   \\____________________________/                       ");
-                    System.out.println("                       \"--\"           \"--\"                           ");
-                    System.out.println("                                                                         ");
                     System.out.println();
                 }
                 if (countWrong == 2) {
@@ -306,7 +310,20 @@ public class Survivingman {
                     System.out.println("Wrong guess! You had the idea to disguise yourself so that the tribe wouldn't notice you so easily.\n" +
                             "With some mud you made yourself look like you came out from some unsuccessful chocolate spa treatment.\n" +
                             "Even jungle creatures look at you with condemnation.");
-
+                    System.out.println("         ,sSS.SSs,\n" +
+                            "         S  `S'  S\n" +
+                            "         Ss  S  sS\n" +
+                            "  ,sSs,   `  S  '   ,sSs,\n" +
+                            "  S  'S,   ,oSo,   ,S'  S\n" +
+                            "  `   'S.oSSSSSSSo.S'   '\n" +
+                            ",sSSs.oSSSSSSSSSSSSSo.sSSs,\n" +
+                            "S'  'SSSSSSSSSSSSSSSSS'  'S\n" +
+                            "`   SSS\\,+~+,.,+~+,/SSS   '\n" +
+                            "   ,S^S|  0  |  0  |S^S,\n" +
+                            "   S',SS'+_+'~'+_+'SS,`S\n" +
+                            "   S S' S|   '   |S `S S\n" +
+                            "   ` `  `S\\  ~  /S'  ' '\n" +
+                            "         S `---' S  ");
                     System.out.println();
                 }
                 if (countWrong == 6) {
@@ -321,6 +338,30 @@ public class Survivingman {
                             "they will make a delicious borsch from you. While your screaming for your life,\n" +
                             "you suddenly wake up in your bed, at home.\n " +
                             "It was all just a nightmare and you decide to never read facebook articles again. ");
+
+                    System.out.println("   \\\\\\|||///               \\\\\\|||///                \\\\\\|||///\n" +
+                            " .  =======              .  =======               .  =======\n" +
+                            "/ \\| O   O |            / \\| O   O |             / \\| O   O |\n" +
+                            "\\ /  \\v_'/              \\ /  \\v_'/               \\ /  \\v_'/\n" +
+                            " #   _| |_               #   _| |_                #   _| |_\n" +
+                            "(#) (     )             (#) (     )              (#) (     )\n" +
+                            " #\\//|* *|\\\\             #\\//|* *|\\\\              #\\//|* *|\\\\\n" +
+                            " #\\/(  *  )/             #\\/(  *  )/              #\\/(  *  )/\n" +
+                            " #   =====               #   =====                #   =====\n" +
+                            " #   (\\ /)               #   (\\ /)                #   (\\ /)\n" +
+                            " #   || ||               #   || ||                #   || ||\n" +
+                            ".#---'| |----.          .#---'| |----.           .#---'| |----.\n" +
+                            " #----' -----'           #----' -----'            #----' -----'\n");
+
+                    System.out.println("      _____|~~\\_____      _____________\n" +
+                            "  _-~               \\    |    \\\n" +
+                            "  _-    | )     \\    |__/   \\   \\\n" +
+                            "  _-         )   |   |  |     \\  \\\n" +
+                            "  _-    | )     /    |--|      |  |\n" +
+                            " __-_______________ /__/_______|  |_________\n" +
+                            "(                |----         |  |\n" +
+                            " `---------------'--\\\\\\\\      .`--'\n" +
+                            "                              `||||");
                 }
             }
 }
