@@ -14,10 +14,20 @@ public class Survivingman {
 
     public static void main(String[] args) {
         int timesRepeatGame = 5;
-        do {
-            startGame();
+        do {   startGame();
+            System.out.println();
+            System.out.println("\n" +
+                    "    __          __  _                 __                                      _         __\n" +
+                    "   / /   ___   / /_( )_____   ____   / /____ _ __  __   ____ _ ____ _ ____ _ (_)____   / /\n" +
+                    "  / /   / _ \\ / __/|// ___/  / __ \\ / // __ `// / / /  / __ `// __ `// __ `// // __ \\ / / \n" +
+                    " / /___/  __// /_   (__  )  / /_/ // // /_/ // /_/ /  / /_/ // /_/ // /_/ // // / / //_/  \n" +
+                    "/_____/\\___/ \\__/  /____/  / .___//_/ \\__,_/ \\__, /   \\__,_/ \\__, / \\__,_//_//_/ /_/(_)   \n" +
+                    "                          /_/               /____/          /____/                        \n");
+            System.out.println("________________________________________________________________________________________________________________________________________");
+
         } while (--timesRepeatGame > 0);
     }
+
     public static void startGame() {
         word = words[(int) (Math.random() * words.length)];
         dashes = new String(new char[word.length()]).replace("\0", "_");
@@ -158,25 +168,47 @@ public class Survivingman {
                 }
                 if (countRight == 5) {
                     System.out.println("You guessed right! You had the idea to disguise yourself so that the tribe wouldn't notice you so easily.\n" +
-                            "With some mud you made yourself invisible.");
+                            "With some mud you made yourself look like a part of a tribe.");
+                    System.out.println("             ,");
+                    System.out.println("            /:\\");
+                    System.out.println("            >:<");
+                    System.out.println("            >:<");
+                    System.out.println("            >:<");
+                    System.out.println("       ,,,,,\\:/");
+                    System.out.println("      #########");
+                    System.out.println("     //////\\\\\\\\\\");
+                    System.out.println("    // /_\\ /_\\ \\\\");
+                    System.out.println("    \\(  0 _ 0  )/");
+                    System.out.println("    /\\\\=  _\\ =//\\");
+                    System.out.println("    \\\\/\\ --- /\\//");
+                    System.out.println("    //\\ '---' /\\\\");
+                    System.out.println("    \\//       \\\\/");
+                    System.out.println("    /\\\\       //\\");
+                    System.out.println("    \\\\/       \\//");
+                    System.out.println("     #         #");
+                    System.out.println("     \"         \"");
                     System.out.println();
                 }
                 if (countRight == 6) {
                     System.out.println("You guessed right! You found a knife that someone must have lost. " +
                             "Now you can make spears, catch fish and peel apples. you don't like eating apples with the peel on.");
-                    System.out.println("___88888 ");
-                    System.out.println("___8___8 ");
-                    System.out.println("____888 ");
-                    System.out.println("____838____ ");
-                    System.out.println("888_838_888 ");
-                    System.out.println("__8888888 ");
-                    System.out.println("___81_18 ");
-                    System.out.println("___81_18 ");
-                    System.out.println("___81_18 ");
-                    System.out.println("___81_18 ");
-                    System.out.println("___81_18 ");
-                    System.out.println("____818 ");
-                    System.out.println("_____8");
+                    System.out.println("       .---.");
+                    System.out.println("       |---|");
+                    System.out.println("       |---|");
+                    System.out.println("       |---|");
+                    System.out.println("   .---^ - ^---.");
+                    System.out.println("   :___________:");
+                    System.out.println("      |  |//|");
+                    System.out.println("      |  |//|");
+                    System.out.println("      |  |//|");
+                    System.out.println("      |  |//|");
+                    System.out.println("      |  |//|");
+                    System.out.println("      |  |//|");
+                    System.out.println("      |  |.-|");
+                    System.out.println("      |.-'**|");
+                    System.out.println("       \\***/");
+                    System.out.println("        \\*/");
+                    System.out.println("         V");
                     System.out.println();
                 }
                 if (countRight == 7) {
