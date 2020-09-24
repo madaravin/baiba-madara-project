@@ -49,7 +49,7 @@ public class Survivingman {
                 "Your thoughts are disturbed by the sound of branches breaking under someone's feet.\n" +
                 "You hide behind a plane wing and see a tribe coming in your direction.\n" +
                 "They don't look friendly, with spears in their hands and their faces painted red and black.\n" +
-                "You remember reading in a facebook post, that your crazy aunt posted, about tribes that paint their faces this way\n" +
+                "You remember reading in a facebook post, that your crazy aunt posted, about tribes that paint their faces this way and\n" +
                 "eat human flesh of lost travellers unless...\n" +
                 "Unless you tell them the magic word... what was the magic word?");
 
