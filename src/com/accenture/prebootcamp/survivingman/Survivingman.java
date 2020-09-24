@@ -79,6 +79,15 @@ public class Survivingman {
             public static void rightAnswer () {
                 if (countRight == 1) {
                     System.out.println("You guessed right! You just found a water source and now you're hydrated.");
+                    System.out.println("        .                 ");
+                    System.out.println("      |^ .                ");
+                    System.out.println("    \\O___.____ /         ");
+                    System.out.println("      \\   .  /           ");
+                    System.out.println("        \\ ,/             ");
+                    System.out.println("         []               ");
+                    System.out.println("         []               ");
+                    System.out.println("         []               ");
+                    System.out.println("      ========            ");
                     System.out.println();
                 }
                 if (countRight == 2) {
@@ -94,6 +103,13 @@ public class Survivingman {
                 }
                 if (countRight == 4) {
                     System.out.println("You guessed right! You were hungry, so you catch a frog. You made some french crispy frog leg delicacies.");
+                    System.out.println("           _ _         ");
+                    System.out.println("         (.)_(.)       ");
+                    System.out.println("      _ (   _   ) _       ");
+                    System.out.println("     / \\/`-----'\\/ \\   ");
+                    System.out.println("   __\\ ( (     ) ) /__     ");
+                    System.out.println("  )   / \\ \\._./ / \\   (   ");
+                    System.out.println("   )_/  /|\\    /|\\ \\_(    ");
                     System.out.println();
                 }
                 if (countRight == 5) {
@@ -140,6 +156,25 @@ public class Survivingman {
                 if (countWrong == 4) {
                     System.out.println("Wrong guess! You were hungry, so you catch a colorful frog.\n" +
                             "You ate it, it tasted terrible and you felt quite strange.It made you hallucinate all day long.");
+                    System.out.println("       ____  __.---\"\"---.__  ____");
+                    System.out.println("      /####\\/              \\/####\\");
+                    System.out.println("     (  / \\ )             ( / \\  )");
+                    System.out.println("     \\____/                \\____/");
+                    System.out.println("    __/                          \\__");
+                    System.out.println(" .-\"    .                      .    \"-.");
+                    System.out.println(" |  |   \\.._                _../   |  |");
+                    System.out.println("  \\  \\    \\.\"-.__________.-\"./    /  /");
+                    System.out.println("    \\  \\    \"--.________.--\"    /  /");
+                    System.out.println("  ___\\  \\_                    _/  /___");
+                    System.out.println("./    )))))                  (((((    \\.");
+                    System.out.println("\\                                      /");
+                    System.out.println(" \\           \\_          _/           /");
+                    System.out.println("   \\    \\____/\"\"-.____.-\"\"\\____/    /");
+                    System.out.println("     \\    \\                  /    /");
+                    System.out.println("      \\.  .|                |.  ./");
+                    System.out.println("    .\" / |  \\              /  | \\  \".");
+                    System.out.println(" .\"  /   |   \\            /   |   \\   \".");
+                    System.out.println("/.-./.--.|.--.\\          /.--.|.--.\\.-.| ");
                     System.out.println();
                 }
                 if (countWrong == 5) {
