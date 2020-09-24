@@ -15,9 +15,13 @@ public class Survivingman {
     public static void main(String[] args) {
         int timesRepeatGame = 5;
         do {
+            System.out.println();
+            System.out.println();
+            System.out.println("Let's play again!");
             startGame();
         } while (--timesRepeatGame > 0);
     }
+
     public static void startGame() {
         word = words[(int) (Math.random() * words.length)];
         dashes = new String(new char[word.length()]).replace("\0", "_");
@@ -239,6 +243,30 @@ public class Survivingman {
                 if (countWrong == 1) {
                     System.out.println("Wrong guess! While hiding from the tribe, you got very cold so you decided to light a campfire.\n" +
                             " You saw how to do it on television, so you rubbed the stones together for three hours straight for no reason.");
+
+                    System.out.println("                                                                         ");
+                    System.out.println("                        o                   o                            ");
+                    System.out.println("                        \\               __/                             ");
+                    System.out.println("                         \\___          /                                ");
+                    System.out.println("                             \\__    __/                                 ");
+                    System.out.println("                                \\  /                                    ");
+                    System.out.println("                     ____________\\/____________                         ");
+                    System.out.println("                    /   ______________________  \\                       ");
+                    System.out.println("                   |  /                      \\   |                      ");
+                    System.out.println("                   | |                         | |                       ");
+                    System.out.println("                   | |                         | |                       ");
+                    System.out.println("                   | |               /         | |                       ");
+                    System.out.println("                   | |      ___                | |                       ");
+                    System.out.println("                   | |      O        0         | |                       ");
+                    System.out.println("                   | |                         | |                       ");
+                    System.out.println("                   | |     \\_-__--__/          | |                      ");
+                    System.out.println("                   | |                         | |                       ");
+                    System.out.println("                   | \\________________________/  |                      ");
+                    System.out.println("                   |                 _   _       |                       ");
+                    System.out.println("                   |  prs           (|) (/)      |                       ");
+                    System.out.println("                   \\____________________________/                       ");
+                    System.out.println("                       \"--\"           \"--\"                           ");
+                    System.out.println("                                                                         ");
                     System.out.println();
                 }
                 if (countWrong == 2) {
