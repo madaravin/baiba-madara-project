@@ -7,13 +7,21 @@ public class Survivingman {
     private static String[] words = {"fire", "silver", "java", "thanks", "dream", "knowledge", "magic",
             "pizza", "chicken", "nightmare", "computer", "facebook", "strength", "fear", "safety", "holiday",
             "human", "tasty", "chocolate", "tiger", "explore", "hide", "jungle", "shelter"};
-    private static String word = words[(int) (Math.random() * words.length)];
-    private static String dashes = new String(new char[word.length()]).replace("\0", "_");
-    private static int countWrong = 0;
+    private static String word;
+    private static String dashes;
+    private static int countWrong;
     private static int countRight;
 
-
     public static void main(String[] args) {
+        int timesRepeatGame = 5;
+        do {
+            startGame();
+        } while (--timesRepeatGame > 0);
+    }
+    public static void startGame() {
+        word = words[(int) (Math.random() * words.length)];
+        dashes = new String(new char[word.length()]).replace("\0", "_");
+        countWrong = countRight = 0;
 
         System.out.println();
         System.out.println("    SSSS    UU      UU   RR RR     VV      VV   II   VV      VV   II   NN     NN     GG GG GG    M         M        A        NN      NN ");
