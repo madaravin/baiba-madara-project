@@ -51,11 +51,10 @@ public class Survivingman {
             System.out.println("Try to remember a letter from the magic word");
             System.out.println(dashes);
             String guess = sc.next();
+            guess= guess.toLowerCase();
             action(guess);
         }
     }
-
-
             public static void action (String guess){
                 String newdashes = "";
                 for (int i = 0; i < word.length(); i++) {
@@ -279,6 +278,7 @@ public class Survivingman {
                     System.out.println("Wrong guess! You had the idea to disguise yourself so that the tribe wouldn't notice you so easily.\n" +
                             "With some mud you made yourself look like you came out from some unsuccessful chocolate spa treatment.\n" +
                             "Even jungle creatures look at you with condemnation.");
+
                     System.out.println();
                 }
                 if (countWrong == 6) {
