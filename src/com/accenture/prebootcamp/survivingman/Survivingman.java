@@ -90,6 +90,16 @@ public class Survivingman {
                             "You tell them the word and they take you to the nearest village where you meet people\n" +
                             "who are just about to fly to the same place you were going! You're the happiest person on earth...\n" +
                             "And then you wake up. It was all a dream.");
+
+                    System.out.println("      _____|~~\\_____      _____________\n" +
+                            "  _-~               \\    |    \\\n" +
+                            "  _-    | )     \\    |__/   \\   \\\n" +
+                            "  _-         )   |   |  |     \\  \\\n" +
+                            "  _-    | )     /    |--|      |  |\n" +
+                            " __-_______________ /__/_______|  |_________\n" +
+                            "(                |----         |  |\n" +
+                            " `---------------'--\\\\\\\\      .`--'\n" +
+                            "                              `||||");
                 }
             }
             public static void rightAnswer () {
@@ -263,6 +273,17 @@ public class Survivingman {
                 }
                 if (countRight == 9) {
                     System.out.println("You guessed right! How does it feel to be a winner?");
+                    System.out.println("\n" +
+                            "             ___________\n" +
+                            "            '._==_==_=_.'\n" +
+                            "            .-\\:      /-.\n" +
+                            "           | (|:.     |) |\n" +
+                            "            '-|:.     |-'\n" +
+                            "              \\::.    /\n" +
+                            "               '::. .'\n" +
+                            "                 ) (\n" +
+                            "               _.' '._\n" +
+                            "              `\"\"\"\"\"\"\"`\n" );
                     System.out.println();
                 }
             }
@@ -298,6 +319,28 @@ public class Survivingman {
                 }
                 if (countWrong == 2) {
                     System.out.println("Wrong guess! You ate some poisonous berries by accident and now you're feeling sick.");
+                    System.out.println("\n" +
+                            "                d888P\n" +
+                            "      d8b d8888P:::P\n" +
+                            "    d:::888b::::::P\n" +
+                            "   d:::dP8888b:d8P\n" +
+                            "  d:::dP 88b  Yb   .d8888b.\n" +
+                            " d::::P  88Yb  Yb .P::::::Y8b\n" +
+                            " 8:::8   88`Yb  YbP::::   :::b\n" +
+                            " 8:::P   88 `8   8!:::::::::::b\n" +
+                            " 8:dP    88  Yb d!!!::::::::::8\n" +
+                            " 8P    ..88   Yb8!!!::::::::::P\n" +
+                            "  .d8:::::Yb  d888VKb:!:!::!:8\n" +
+                            " d::::::  ::dP:::::::::b!!!!8\n" +
+                            "8!!::::::::P::::::::::::b!8P\n" +
+                            "8:!!::::::d::::::: ::::::b\n" +
+                            "8:!:::::::8!:::::::  ::::8\n" +
+                            "8:!!!:::::8!:::::::::::::8\n" +
+                            "Yb:!!:::::8!!::::::::::::8\n" +
+                            " 8b:!!!:!!8!!!:!:::::!!:dP\n" +
+                            "  `8b:!!!:Yb!!!!:::::!d88\n" +
+                            "      \"\"\"  Y88!!!!!!!d8P\n" +
+                            "              \"\"\"\"\"\"\"");
                     System.out.println();
                 }
                 if (countWrong == 3) {
