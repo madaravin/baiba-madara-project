@@ -310,7 +310,20 @@ public class Survivingman {
                     System.out.println("Wrong guess! You had the idea to disguise yourself so that the tribe wouldn't notice you so easily.\n" +
                             "With some mud you made yourself look like you came out from some unsuccessful chocolate spa treatment.\n" +
                             "Even jungle creatures look at you with condemnation.");
-
+                    System.out.println("         ,sSS.SSs,\n" +
+                            "         S  `S'  S\n" +
+                            "         Ss  S  sS\n" +
+                            "  ,sSs,   `  S  '   ,sSs,\n" +
+                            "  S  'S,   ,oSo,   ,S'  S\n" +
+                            "  `   'S.oSSSSSSSo.S'   '\n" +
+                            ",sSSs.oSSSSSSSSSSSSSo.sSSs,\n" +
+                            "S'  'SSSSSSSSSSSSSSSSS'  'S\n" +
+                            "`   SSS\\,+~+,.,+~+,/SSS   '\n" +
+                            "   ,S^S|  0  |  0  |S^S,\n" +
+                            "   S',SS'+_+'~'+_+'SS,`S\n" +
+                            "   S S' S|   '   |S `S S\n" +
+                            "   ` `  `S\\  ~  /S'  ' '\n" +
+                            "         S `---' S  ");
                     System.out.println();
                 }
                 if (countWrong == 6) {
@@ -325,6 +338,30 @@ public class Survivingman {
                             "they will make a delicious borsch from you. While your screaming for your life,\n" +
                             "you suddenly wake up in your bed, at home.\n " +
                             "It was all just a nightmare and you decide to never read facebook articles again. ");
+
+                    System.out.println("   \\\\\\|||///               \\\\\\|||///                \\\\\\|||///\n" +
+                            " .  =======              .  =======               .  =======\n" +
+                            "/ \\| O   O |            / \\| O   O |             / \\| O   O |\n" +
+                            "\\ /  \\v_'/              \\ /  \\v_'/               \\ /  \\v_'/\n" +
+                            " #   _| |_               #   _| |_                #   _| |_\n" +
+                            "(#) (     )             (#) (     )              (#) (     )\n" +
+                            " #\\//|* *|\\\\             #\\//|* *|\\\\              #\\//|* *|\\\\\n" +
+                            " #\\/(  *  )/             #\\/(  *  )/              #\\/(  *  )/\n" +
+                            " #   =====               #   =====                #   =====\n" +
+                            " #   (\\ /)               #   (\\ /)                #   (\\ /)\n" +
+                            " #   || ||               #   || ||                #   || ||\n" +
+                            ".#---'| |----.          .#---'| |----.           .#---'| |----.\n" +
+                            " #----' -----'           #----' -----'            #----' -----'\n");
+
+                    System.out.println("      _____|~~\\_____      _____________\n" +
+                            "  _-~               \\    |    \\\n" +
+                            "  _-    | )     \\    |__/   \\   \\\n" +
+                            "  _-         )   |   |  |     \\  \\\n" +
+                            "  _-    | )     /    |--|      |  |\n" +
+                            " __-_______________ /__/_______|  |_________\n" +
+                            "(                |----         |  |\n" +
+                            " `---------------'--\\\\\\\\      .`--'\n" +
+                            "                              `||||");
                 }
             }
 }
