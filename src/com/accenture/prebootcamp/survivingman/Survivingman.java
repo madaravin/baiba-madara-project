@@ -319,11 +319,39 @@ public class Survivingman {
                 }
                 if (countWrong == 2) {
                     System.out.println("Wrong guess! You ate some poisonous berries by accident and now you're feeling sick.");
+                    System.out.println("" +
+                            "      ////^\\\\\\\\\n" +
+                            "      | ^   ^ |\n" +
+                            "     @ (o) (o) @\n" +
+                            "      |   <   |\n" +
+                            "      |  ___  |\n" +
+                            "       \\_____/\n" +
+                            "     ____|  |____\n" +
+                            "    /    \\__/    \\\n" +
+                            "   /              \\\n" +
+                            "  /\\_/|        |\\_/\\\n" +
+                            " / /  |        |  \\ \\\n" +
+                            "( <   |        |   > )\n" +
+                            " \\ \\  |        |  / /\n" +
+                            "  \\ \\ |________| / /\n" +
+                            "   \\ \\|");
                     System.out.println();
+
                 }
                 if (countWrong == 3) {
                     System.out.println("Wrong guess! Where to sleep, you thought. My father always told me I'm not a good builder.\n" +
                             "So you find a cave which made you run for your life, because the bear wasn't waiting for any guests.");
+                    System.out.println(" " +
+                            "   .--.              .--.\n" +
+                            "   : (\\ \". _......_ .\" /) :\n" +
+                            "    '.    `        `    .'\n" +
+                            "     /'   _        _   `\\\n" +
+                            "    /     0}      {0     \\\n" +
+                            "   |       /      \\       |\n" +
+                            "   |     /'        `\\     |\n" +
+                            "    \\   | .  .==.  . |   /\n" +
+                            "     '._ \\.' \\__/ './ _.'\n" +
+                            "     /  ``'._-''-_.'``  \\");
                     System.out.println();
                 }
                 if (countWrong == 4) {
