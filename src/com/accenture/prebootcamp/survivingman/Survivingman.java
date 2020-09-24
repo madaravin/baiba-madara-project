@@ -93,6 +93,17 @@ public class Survivingman {
                 if (countRight == 2) {
                     System.out.println("You guessed right! While hiding from the tribe, you meet a shaman who shared his warm campfire.\n" +
                             " He gave you a blessing for the way forward.");
+                    System.out.println("           (                  ,&&&. ");
+                    System.out.println("            )                 .,.&& ");
+                    System.out.println("           (  (               \\=__/ ");
+                    System.out.println("               )              ,'-'. ");
+                    System.out.println("         (    (  ,,       _.__|/ /|");
+                    System.out.println("          ) / \\ -((------((_|___/ |");
+                    System.out.println("       (  // | (`'        ((  `'--|");
+                    System.out.println("     _ -.;_/ \\\\--._        \\\\ \\-._/.");
+                    System.out.println("     (_;-// | \\ \\-'.\\     <_,\\_\\`--'|");
+                    System.out.println("     ( `.__ _  ___,')       <_,-'__,'");
+                    System.out.println("      `'(_ )_)(_)_)'");
                     System.out.println();
                 }
                 if (countRight == 3) {
@@ -120,6 +131,19 @@ public class Survivingman {
                 if (countRight == 6) {
                     System.out.println("You guessed right! You found a knife that someone must have lost. " +
                             "Now you can make spears, catch fish and peel apples. you don't like eating apples with the peel on.");
+                    System.out.println("___88888 ");
+                    System.out.println("___8___8 ");
+                    System.out.println("____888 ");
+                    System.out.println("____838____ ");
+                    System.out.println("888_838_888 ");
+                    System.out.println("__8888888 ");
+                    System.out.println("___81_18 ");
+                    System.out.println("___81_18 ");
+                    System.out.println("___81_18 ");
+                    System.out.println("___81_18 ");
+                    System.out.println("___81_18 ");
+                    System.out.println("____818 ");
+                    System.out.println("_____8");
                     System.out.println();
                 }
                 if (countRight == 7) {
@@ -130,6 +154,16 @@ public class Survivingman {
                     System.out.println("You guessed right! While sneaking in the jungle, you spot a young tigress and you feed her some of your " +
                             "food so she doesn't attack you. At first, she scratches you a bit, " +
                             "but after seeing you have food, she gets used to you quickly and now you have a pet!");
+                    System.out.println("                      __,,,,_");
+                    System.out.println("       _ __..-;''`--/'/ /.',-`-.");
+                    System.out.println("   (`/' ` |  \\ \\ \\\\ / / / / .-'/`,_");
+                    System.out.println("  /'`\\ \\   |  \\ | \\| // // / -.,/_,'-,");
+                    System.out.println(" /<7' ;  \\ \\  | ; ||/ /| | \\/    |`-/,/-.,_,/')");
+                    System.out.println("/  _.-, `,-\\,__|  _-| / \\ \\/|_/  |    '-/.;.\\'");
+                    System.out.println("`-`  f/ ;      / __/ \\__ `/ |__/ |");
+                    System.out.println("     `-'      |  -| =|\\_  \\  |-' |");
+                    System.out.println("           __/   /_..-' `  ),'  //");
+                    System.out.println("          ((__.-'((___..-'' \\__.'");
                     System.out.println();
                 }
                 if (countRight == 9) {
