@@ -1,6 +1,45 @@
 package com.accenture.prebootcamp.survivingman;
 
 public class Graphics {
+    public static void title() {
+
+        System.out.println();
+
+        System.out.println("    SSSS    UU      UU   RR RR     VV      VV   II   VV      VV   II   NN     NN     GG GG GG    M         M        A        NN      NN ");
+        System.out.println("  SSS       UU      UU   RR   RR    VV    VV    II    VV    VV    II   NNNN   NN    GG           MMM     MMM      AA AA      NNNN    NN ");
+        System.out.println("    SSS     UU      UU   RR RR       VV  VV     II     VV  VV     II   NN NN  NN   GG     GGG    MM M   M MM     AA   AA     NN  NN  NN ");
+        System.out.println("      SSS    UU    UU    RR  RR       VVVV      II      VVVV      II   NN   NNNN    GG      GG   MM  M M  MM    AA AAA AA    NN    NNNN ");
+        System.out.println("   SSSS        UUUU      RR   RR       VV       II       VV       II   NN     NN     GG GG GG    MM   M   MM   AA       AA   NN      NN ");
+
+        System.out.println();
+        System.out.println("The first thing you see when you open your eyes is a bright light. Your head feels hazy and your body- heavy.\n" +
+                "You were on your way to fly to see your family, but the last thing you remember is the pilot yelling that the plane is about to crash.\n" +
+                "Strangely, there is no one else around you, but you know that you have been laying there for a while as your mouth is dry and the plane\n" +
+                "isn't burning anymore, there are just smoke coming from the shattered metal parts.\n" +
+                "Your thoughts are disturbed by the sound of branches breaking under someone's feet.\n" +
+                "You hide behind a plane wing and see a tribe coming in your direction.\n" +
+                "They don't look friendly, with spears in their hands and their faces painted red and black.\n" +
+                "You remember reading in a facebook post, that your crazy aunt posted, about tribes that paint their faces this way and\n" +
+                "eat human flesh of lost travellers unless...\n" +
+                "Unless you tell them the magic word... what was the magic word?");
+
+        System.out.println();
+
+    }
+
+    public static void playAgain() {
+        System.out.println();
+        System.out.println("\n" +
+                "    __          __  _                 __                                      _         __\n" +
+                "   / /   ___   / /_( )_____   ____   / /____ _ __  __   ____ _ ____ _ ____ _ (_)____   / /\n" +
+                "  / /   / _ \\ / __/|// ___/  / __ \\ / // __ `// / / /  / __ `// __ `// __ `// // __ \\ / / \n" +
+                " / /___/  __// /_   (__  )  / /_/ // // /_/ // /_/ /  / /_/ // /_/ // /_/ // // / / //_/  \n" +
+                "/_____/\\___/ \\__/  /____/  / .___//_/ \\__,_/ \\__, /   \\__,_/ \\__, / \\__,_//_//_/ /_/(_)   \n" +
+                "                          /_/               /____/          /____/                        \n");
+        System.out.println("________________________________________________________________________________________________________________________________________");
+
+    }
+
     public static void countRight1() {
         System.out.println("You guessed right! You just found a water source and now you're hydrated.");
         System.out.println("        .                 ");
