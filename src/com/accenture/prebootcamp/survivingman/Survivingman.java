@@ -290,7 +290,7 @@ public class Survivingman {
 
             public static void wrongAnswer () {
                 if (countWrong == 1) {
-                    System.out.println("Wrong guess! While hiding from the tribe, you got very cold so you decided to light a campfire.\n" +
+                    System.err.println("Wrong guess! While hiding from the tribe, you got very cold so you decided to light a campfire.\n" +
                             " You saw how to do it on television, so you rubbed the stones together for three hours straight for no reason.");
                     System.out.println("                                                                         ");
                     System.out.println("                        o                   o                            ");
@@ -318,7 +318,7 @@ public class Survivingman {
                     System.out.println();
                 }
                 if (countWrong == 2) {
-                    System.out.println("Wrong guess! You ate some poisonous berries by accident and now you're feeling sick.");
+                    System.err.println("Wrong guess! You ate some poisonous berries by accident and now you're feeling sick.");
                     System.out.println("" +
                             "      ////^\\\\\\\\\n" +
                             "      | ^   ^ |\n" +
@@ -339,7 +339,7 @@ public class Survivingman {
 
                 }
                 if (countWrong == 3) {
-                    System.out.println("Wrong guess! Where to sleep, you thought. My father always told me I'm not a good builder.\n" +
+                    System.err.println("Wrong guess! Where to sleep, you thought. My father always told me I'm not a good builder.\n" +
                             "So you find a cave which made you run for your life, because the bear wasn't waiting for any guests.");
                     System.out.println(" " +
                             "   .--.              .--.\n" +
@@ -355,7 +355,7 @@ public class Survivingman {
                     System.out.println();
                 }
                 if (countWrong == 4) {
-                    System.out.println("Wrong guess! You were hungry, so you catch a colorful frog.\n" +
+                    System.err.println("Wrong guess! You were hungry, so you catch a colorful frog.\n" +
                             "You ate it, it tasted terrible and you felt quite strange.It made you hallucinate all day long.");
                     System.out.println("       ____  __.---\"\"---.__  ____");
                     System.out.println("      /####\\/              \\/####\\");
@@ -379,7 +379,7 @@ public class Survivingman {
                     System.out.println();
                 }
                 if (countWrong == 5) {
-                    System.out.println("Wrong guess! You had the idea to disguise yourself so that the tribe wouldn't notice you so easily.\n" +
+                    System.err.println("Wrong guess! You had the idea to disguise yourself so that the tribe wouldn't notice you so easily.\n" +
                             "With some mud you made yourself look like you came out from some unsuccessful chocolate spa treatment.\n" +
                             "Even jungle creatures look at you with condemnation.");
                     System.out.println("         ,sSS.SSs,\n" +
@@ -399,7 +399,7 @@ public class Survivingman {
                     System.out.println();
                 }
                 if (countWrong == 6) {
-                    System.out.println("Wrong guess! While sneaking in the jungle, suddenly you get attacked by a panther.\n" +
+                    System.err.println("Wrong guess! While sneaking in the jungle, suddenly you get attacked by a panther.\n" +
                             "It only injures your arm and then leaves you since you smell bad.");
                     System.out.println("                         ..,co88oc.oo8888cc,..\n" +
                             "  o8o.               ..,o8889689ooo888o\"88888888oooc..\n" +
@@ -417,7 +417,7 @@ public class Survivingman {
                             "                                                        .:o888.o8o.  \"866o9888o\n" +
                             "                                                         :888.o8888.  \"88.\"89\".\n" +
                             "                                                        . 89  888888    \"88\":.\n" +
-                            "                    atc                                 :.     '8888o\n" +
+                            "                                                        :.     '8888o\n" +
                             "                                                         .       \"8888..\n" +
                             "                                                                   888888o.\n" +
                             "                                                                    \"888889,\n" +
@@ -425,7 +425,7 @@ public class Survivingman {
                     System.out.println();
                 }
                 if (countWrong == 7) {
-                    System.out.println("Wrong guess! You are awoken from your nap as the tribe has their spears pointed towards you.\n" +
+                    System.err.println("Wrong guess! You are awoken from your nap as the tribe has their spears pointed towards you.\n" +
                             "You have no escape and you start to think about the impending doom.\n" +
                             "They bring you to their village, where they have prepared a large pot for you to boil in and\n" +
                             "they will make a delicious borsch from you. While your screaming for your life,\n" +
