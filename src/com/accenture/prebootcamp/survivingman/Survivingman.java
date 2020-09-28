@@ -14,7 +14,6 @@ public class Survivingman {
     private static String dashes;
     private static int countWrong;
     private static int countRight;
-    private static int numbers;
     private static int timesRepeatGame = 5;
 
     public static void main(String[] args) {
@@ -75,9 +74,6 @@ public class Survivingman {
                 sc.next();
             }
             action(guess);
-            if (guess.contains("\\d")) {
-                System.out.println("Please insert a letter!");
-            }
         }
     }
 
