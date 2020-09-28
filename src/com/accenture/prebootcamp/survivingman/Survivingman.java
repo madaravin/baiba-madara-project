@@ -1,7 +1,6 @@
 
 package com.accenture.prebootcamp.survivingman;
 
-import java.awt.*;
 import java.util.Scanner;
 
 import static com.accenture.prebootcamp.survivingman.Graphics.*;
@@ -40,14 +39,11 @@ public class Survivingman {
             guess = guess.toLowerCase();
             if (guess.matches("[1234567890]")) {
                 System.out.println("Please insert a letter");
-                sc.next();
+                sc.nextLine();
             }
             action(guess);
-            if (guess.contains("\\d")) {
-                System.out.println("Please insert a letter!");
             }
         }
-    }
 
     public static void action(String guess) {
         String newdashes = "";
