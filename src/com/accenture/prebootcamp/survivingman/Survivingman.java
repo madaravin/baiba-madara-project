@@ -11,6 +11,7 @@ public class Survivingman {
     private static String dashes;
     private static int countWrong;
     private static int countRight;
+    private static int numbers;
     private static int timesRepeatGame = 5;
     public static void main(String[] args) {
 
@@ -64,6 +65,10 @@ public class Survivingman {
             System.out.println(dashes);
             String guess = sc.next();
             guess= guess.toLowerCase();
+            if (guess.matches("[1234567890]")){
+                System.out.println("Please insert a letter");
+                sc.next();
+            }
             action(guess);
         }
     }
