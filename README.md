@@ -21,7 +21,7 @@ Surviving man for "She goes tech"
     Next we loop through the word to compare each letter with players entered guess. If the players entered letter does not match we keep hiding the word.
     By every count and it will show up by every guess, we add a image and we print out story (text) with the current situation of the surviving man.
     Player wins the game if count is lower the 7 and the guess equals to given word. We can congratulate the player.
-    After first round, if player returns 'yes' answer, we can ofer player to play "Surviving Man" again.
+    After first round, player has a chance to play "Surviving Man" again.
 
     Examples:
     The player needs to guess word orange.
